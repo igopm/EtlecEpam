@@ -1,4 +1,4 @@
-package ua.com.mi.epam.etlec;
+package ua.com.mi.epam.etlec_1;
 
 public class Etlec_1_5 {
 	public static int calculateLuckyTickets(int start, int end) {

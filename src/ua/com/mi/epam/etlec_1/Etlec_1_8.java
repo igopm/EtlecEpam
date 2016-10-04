@@ -1,4 +1,4 @@
-package ua.com.mi.epam.etlec;
+package ua.com.mi.epam.etlec_1;
 
 public class Etlec_1_8 {
 	public static void main(String[] args) { 
