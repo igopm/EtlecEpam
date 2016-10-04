@@ -1,7 +1,5 @@
 package ua.com.mi.epam.etlec;
 
-import ua.dz.Etlec_1.Etlec_1_3;
-
 public class Etlec_1_7 {
 	public static void main(String[] args) {
 		/*

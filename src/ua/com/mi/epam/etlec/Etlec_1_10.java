@@ -5,6 +5,7 @@ public class Etlec_1_10 {
 	 * Создать "треугольный" массив из 10 строк и заполнить его
 	 * биномиальными коэффициентами (треугольник Паскаля)
 	 */
+	public static void main(String[] args) {
 	int n = 10;
 	int arr[][] = new int[n][];
 
