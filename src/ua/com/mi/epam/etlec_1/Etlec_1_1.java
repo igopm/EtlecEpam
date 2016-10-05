@@ -1,5 +1,10 @@
 package ua.com.mi.epam.etlec_1;
 
+/**
+ * @author West
+ *
+ */
+
 public class Etlec_1_1 {
 	public static int nSd(int a, int b) {
 
