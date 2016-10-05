@@ -1,7 +1,5 @@
 package ua.com.mi.epam.etlec_3;
 
-import ua.com.mi.kostin.Kostin;
-
 /**
  * @author West
  *
@@ -31,14 +29,14 @@ public class Rectangle extends Figure {
 
 	@Override
 	public String toString() {
-		return "Rectangle - centr ( " + x + "; " + y + "), sides [AB = BC = " + a
-				+ "; AC = BC = " + b + "]";
+		return "Rectangle - centr ( " + x + "; " + y + "), sides [AB = BC = "
+				+ a + "; AC = BC = " + b + "]";
 	}
 
 	@Override
 	public void move() {
-		this.x = Kostin.random(-99, 99);
-		this.y = Kostin.random(-99, 99);
+		this.x = random(-99, 99);
+		this.y = random(-99, 99);
 	}
 
 	@Override

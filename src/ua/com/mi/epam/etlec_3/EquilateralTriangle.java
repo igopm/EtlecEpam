@@ -1,16 +1,16 @@
 package ua.com.mi.epam.etlec_3;
 
-public class Square extends Figure {
+public class EquilateralTriangle extends Figure {
+
 	private double x;
 	private double y;
-	
 	private double side;
-
-	public Square() {
+	
+	public EquilateralTriangle() {
 		super();
 	}
 
-	public Square(double x, double y, double side) {
+	public EquilateralTriangle(double x, double y, double side) {
 		super();
 		this.x = x;
 		this.y = y;
@@ -30,7 +30,9 @@ public class Square extends Figure {
 
 	@Override
 	public String toString() {
-		return "Square - centr ( " + x + "; " + y
-				+ "), sides [AB = BC = AC = BC = " + side + "]";
+		return "EquilateralTriangle - centr ( " + x + "; " + y
+				+ "), sides [AB = BC = CA = " + side
+				+ "], angle [ A = B = C = " + 60 + " deg]";
 	}
+
 }
