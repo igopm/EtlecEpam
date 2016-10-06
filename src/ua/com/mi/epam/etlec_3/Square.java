@@ -1,9 +1,13 @@
 package ua.com.mi.epam.etlec_3;
 
+/**
+ * @author West
+ *
+ */
 public class Square extends Figure {
 	private double x;
 	private double y;
-	
+
 	private double side;
 
 	public Square() {

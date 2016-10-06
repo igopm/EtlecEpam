@@ -1,11 +1,15 @@
 package ua.com.mi.epam.etlec_3;
 
+/**
+ * @author West
+ *
+ */
 public class EquilateralTriangle extends Figure {
 
 	private double x;
 	private double y;
 	private double side;
-	
+
 	public EquilateralTriangle() {
 		super();
 	}

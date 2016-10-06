@@ -47,7 +47,8 @@ public class Rhombus extends Figure {
 	public String toString() {
 		return "Rhombus - centr ( " + x + "; " + y
 				+ "), sides [AB = BC = CD = DA = " + side
-				+ "], angle [ A = C = " + angleA + " deg ; B = D = " + angleB + " deg]";
+				+ "], angle [ A = C = " + angleA + " deg; B = D = " + angleB
+				+ " deg]";
 	}
 
 }

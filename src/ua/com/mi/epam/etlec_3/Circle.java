@@ -33,6 +33,6 @@ public class Circle extends Figure {
 	@Override
 	public void scale(int scale) {
 		this.radius = radius * scale;
-
 	}
+
 }

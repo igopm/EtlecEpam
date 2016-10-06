@@ -16,6 +16,5 @@ public abstract class Figure {
 	};
 
 	public abstract void move();
-
 	public abstract void scale(int scale);
 }
